@@ -10,14 +10,14 @@ title: Amazon Multi-Robot System
 As a team of four, we investigated floor robots and their application in carrying arbitrary loads. Our concept for such a system was a collection of identical collaborative robots, each similar in size to a Roomba. Combined, they would constitute a MRS that could be tasked to transport previously unknown objects of various sizes, loads, and geometries through a warehouse environment. Our MRS can be loaded with an object, and directed to an end position. Given perception and load sensing capabilities, the MRS may additionally adjust itself dynamically to best control its cargo, avoid collisions, and ensure safe transport. -->
 In a team of four, we developed a multi-robot system capable of transporting loads of various shape and size in a warehouse.  We designed and built out two iterations, with the final prototype system consisting of three robots.
 
-![bot](/public/images/bot.png)
+![bot](https://github.com/MaxZin8/_portfolio/public/images/bot.png)
 
 <video muted autoplay align="left" width="45%" controls>
-  <source src="https://github.com/MaxZin8/_portfolio.git/public/images/demo.mp4" type="video/mp4"></source>
+  <source src="https://github.com/MaxZin8/_portfolio/public/images/demo.mp4" type="video/mp4"></source>
 </video>
 
 <video muted autoplay align="right" width="45%" controls>
-  <source src="https://github.com/MaxZin8/_portfolio.git/public/images/demo2.mp4" type="video/mp4"></source>
+  <source src="https://github.com/MaxZin8/_portfolio/public/images/demo2.mp4" type="video/mp4"></source>
 </video>
 
 

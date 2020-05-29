@@ -1,29 +1,30 @@
 ---
 layout: page
-title: About
+title: About me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Roboticist and mechanical engineer, experienced in hardware design. Interested in human-robot interaction and soft robotics.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<!-- ### [Amazon Multi-Robot System](MRS.md) &nbsp;&nbsp; | &nbsp;&nbsp; [Braille Printer](braille_printer.md) &nbsp;&nbsp; | &nbsp;&nbsp; [TriBot](tri_bot.md) -->
 
-There are currently two themes built on Poole:
 
-* [Hyde](https://hyde.getpoole.com)
-* [Lanyon](https://lanyon.getpoole.com)
+### Experience
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Hardware Development Intern &nbsp;**Amazon Robotics**  &nbsp;&nbsp;&nbsp; _June 2019 - July 2019_<br />Mechanical Engineering Intern &nbsp;**CannonDesign** &nbsp;&nbsp;&nbsp; _June 2018 - August 2018_<br />Energy Efficiency Engineering Intern &nbsp;**sustainability@BU** &nbsp;&nbsp;&nbsp; _June 2016 - June 2018_
 
-## Setup
+### Skills
 
-Some fun facts about the setup of this project include:
+**Engineering Software**<br />
+SolidWorks • Autodesk • Fusion 360 • Creo Parametric • Revit<br />
+**Robotics**<br />
+Robot Operating System (ROS) • Gazebo • Arduino • Control Design<br />
+**Programming**<br />
+C++ • Python • MATLAB<br />
+**Machining**<br />
+NC milling • Turning • CAM Software • 3D Printing
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+### Extracurriculars
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Team Liaison, Boston University Consulting Group Strategy Lab _Fall 2018_<br />
+<font size="4">Community Outreach Coordinator, Boston University Myanmar Student Association _2016-2017_<br /></font>
+Drum line in Boston University Marching and Pep Band _2015-2018_

@@ -13,11 +13,11 @@ In a team of four, we developed a multi-robot system capable of transporting loa
 ![bot](/public/images/bot.png)
 
 <video muted autoplay align="left" width="45%" controls>
-  <source src="/public/images/demo.mp4" type="video/mp4"></source>
+  <source src="https://github.com/MaxZin8/_portfolio.git/public/images/demo.mp4" type="video/mp4"></source>
 </video>
 
 <video muted autoplay align="right" width="45%" controls>
-  <source src="/public/images/demo2.mp4" type="video/mp4"></source>
+  <source src="https://github.com/MaxZin8/_portfolio.git/public/images/demo2.mp4" type="video/mp4"></source>
 </video>
 
 

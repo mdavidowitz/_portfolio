@@ -3,7 +3,8 @@ layout: page
 title: Amazon Multi-Robot System
 ---
 
-<br />
+[![button]({{site.url}}/images/pdf_icon.png)]({{site.url}}/images/final_report.pdf) **Final Report**
+
 
 <!-- This was a project created for a year-long mechanical engineering capstone assignment in a senior design course.
 
@@ -39,7 +40,7 @@ The primary command input of the system is compliant guidance: a human lightly p
 ```
 The compliant loading mechanism of the robot: four 20kg strain gauge  load cells resolve a push force into its vector components.
 ```
-</br>
+
 
 I took the lead on design of the drivetrain and chassis for the system, opting for a differential, belt drive with a simple spring-loaded front and back ball caster suspension. This design reduced the radial load experienced by our cheap hobbyist gearmotor, operated within our robot chassis footprint constraint (from the shop's CNC work area) of 12"x12", and allowed the robot to have a zero turn radius for the MRS to transport an object holonomically.
 

@@ -27,3 +27,7 @@ JoyRide Personal EV
 <br/><br/>
 
 ![ninja]({{ "/images/bike_rebuild.jpg" | relative_url }})
+
+```
+Kawasaki Ninja 250 revival
+```

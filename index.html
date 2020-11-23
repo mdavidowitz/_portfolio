@@ -1,37 +1,33 @@
 ---
 layout: default
-title: Home
+title: about
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <div class="page">
+<h1 class="page-title">About me</h1>
+<img src="{{site.url}}/images/dog_point_cloud.jpg"  alt="doint cloud">
+<p>Mechanical engineer and roboticist, experienced in hardware design.</p>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<h3 id="experience">Experience</h3>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<p><strong>Mechanical Engineer</strong>  Vecna Robotics      <em>February 2020 - November 2020</em><br />
+<strong>Technical Assistant</strong>  Vecna Robotics      <em>August 2019 - January 2020</em><br />
+<strong>Hardware Development Intern</strong>  Amazon Robotics      <em>June 2019 - July 2019</em><br /><strong>Mechanical Engineering Intern</strong>  CannonDesign     <em>June 2018 - August 2018</em><br /><strong>Energy Efficiency Engineering Intern</strong>  sustainability@BU     <em>June 2016 - June 2018</em></p>
+
+<h3 id="skills">Skills</h3>
+
+<p><strong>Engineering Software</strong><br />
+SolidWorks • Autodesk Fusion 360 • Creo Parametric • PDM/PLM<br />
+<strong>Robotics</strong><br />
+Robot Operating System (ROS) • C++ • Gazebo • Arduino <br />
+<strong>Machining</strong><br />
+Manual milling • Laser cutting • Turning • CAM Software • 3D Printing</p>
+
+<h3 id="extracurriculars">Extracurriculars</h3>
+
+<p>Team Liaison, Boston University Consulting Group Strategy Lab <em>Fall 2018</em><br />
+Community Outreach Coordinator, Boston University Myanmar Student Association <em>2016-2017</em><br />
+Drum line in Boston University Marching and Pep Band <em>2015-2018</em></p>
+
 </div>

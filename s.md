@@ -23,3 +23,7 @@ Imitation Control of a Robotic Arm Using the Panasonic 3D LiDAR
 ```
 JoyRide Personal EV
 ```
+
+<br/><br/>
+
+![ninja]({{ "/images/bike_rebuild.jpg" | relative_url }})

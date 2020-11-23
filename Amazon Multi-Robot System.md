@@ -3,7 +3,7 @@ layout: page
 title: Amazon Multi-Robot System
 ---
 
-[![button]({{ "/images/pdf_icon.png" | relative_url }}")]({{ "/images/final_report.pdf" | relative_url }}) **Final Report**
+[![button]({{ "/images/pdf_icon.png" | relative_url }})]({{ "/images/final_report.pdf" | relative_url }}) **Final Report**
 
 
 <!-- This was a project created for a year-long mechanical engineering capstone assignment in a senior design course.

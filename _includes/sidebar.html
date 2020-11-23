@@ -6,11 +6,11 @@
           Max Davidowitz
         </a>
       </h2>
-      <p class="lead">Engineering Portfolio <br/></p><h4><a href="{{site.url}}/images/Max Davidowitz Resume.pdf">Resume</a></h4>
+      <p class="lead">Engineering Portfolio <br/></p><h4><a href="{{ "/images/Max Davidowitz Resume.pdf" | relative_url }}">Resume</a></h4>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.title == "about" %} active{% endif %}" href="{{site.url}}/index.html">About Me</a>
+      <a class="sidebar-nav-item{% if page.title == "about" %} active{% endif %}" href="{{ "/index.html" | relative_url }}">About Me</a>
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.

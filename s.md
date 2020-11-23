@@ -4,13 +4,13 @@ title: //exciting// Works In Progress
 ---
 <br/>
 
-![panasonic]({{site.url}}/images/lidar_setup.png)
+![panasonic]("{{ "/images/lidar_setup.png" | relative_url }}")
 
 <p>
   <img width="350" src="{{site.url}}/images/keypoints.png">
 </p>
 
-[![button]({{site.url}}/images/pdf_icon.png)]({{site.url}}/images/imitation control.pdf) **Oct 2020 Presentation**
+[![button]("{{ "/images/pdf_icon.png" | relative_url }}"]("{{ "/images/imitation_control.pdf" | relative_url }}") **Oct 2020 Presentation**
 
 ```
 Imitation Control of a Robotic Arm Using the Panasonic 3D LiDAR
@@ -18,7 +18,7 @@ Imitation Control of a Robotic Arm Using the Panasonic 3D LiDAR
 
 <br/><br/>
 
-![joyride]({{site.url}}/images/joyride.jpg)
+![joyride]("{{ "/images/joyride.jpg" | relative_url }}")
 
 ```
 JoyRide Personal EV

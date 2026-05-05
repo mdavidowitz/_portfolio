@@ -12,10 +12,6 @@ html {
   html { font-size: 18px; }
 }
 
-/*
- * Sidebar
- */
-
 .sidebar {
   text-align: left;
   padding: 2.5rem 2rem;
@@ -37,7 +33,6 @@ html {
   }
 }
 
-/* Sidebar links */
 .sidebar a {
   color: rgba(255,255,255,.9);
   transition: color 0.15s ease;
@@ -47,7 +42,6 @@ html {
   text-decoration: none;
 }
 
-/* Name / title block */
 .sidebar-about h2 {
   color: #fff;
   margin-top: 0;
@@ -57,12 +51,8 @@ html {
   font-weight: 700;
   letter-spacing: -0.03em;
 }
-.sidebar-about h2 a {
-  color: #fff;
-}
-.sidebar-about h2 a:hover {
-  color: #a5b4fc;
-}
+.sidebar-about h2 a { color: #fff; }
+.sidebar-about h2 a:hover { color: #a5b4fc; }
 
 .sidebar-about .lead {
   color: rgba(255,255,255,.5);
@@ -92,17 +82,13 @@ html {
   color: #c7d2fe;
 }
 
-/* Divider */
 .sidebar-divider {
   border: none;
   border-top: 1px solid rgba(255,255,255,.1);
   margin: 1.75rem 0;
 }
 
-/* Sidebar nav */
-.sidebar-nav {
-  margin-bottom: 1rem;
-}
+.sidebar-nav { margin-bottom: 1rem; }
 .sidebar-nav-item {
   display: block;
   padding: .45rem 0;
@@ -127,25 +113,19 @@ a.sidebar-nav-item:focus {
   border-left-color: #6366f1;
 }
 
-/* Sticky sidebar content */
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  2rem;
+    right: 2rem;
     bottom: 2rem;
-    left:   2rem;
+    left: 2rem;
   }
 }
 
-/*
- * Content container
- */
-
 .content {
-  padding-top:    4rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
 @media (min-width: 48em) {
   .content {
     max-width: 42rem;
@@ -153,7 +133,6 @@ a.sidebar-nav-item:focus {
     margin-right: 2rem;
   }
 }
-
 @media (min-width: 64em) {
   .content {
     margin-left: 24rem;
@@ -161,33 +140,14 @@ a.sidebar-nav-item:focus {
   }
 }
 
-/*
- * Reverse layout
- */
-
 @media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-    border-right: none;
-    border-left: 1px solid rgba(255,255,255,.05);
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 22rem;
-  }
+  .layout-reverse .sidebar { left: auto; right: 0; }
+  .layout-reverse .content { margin-left: 2rem; margin-right: 22rem; }
 }
-
 @media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 24rem;
-  }
+  .layout-reverse .content { margin-left: 4rem; margin-right: 24rem; }
 }
 
-/*
- * Theme
- */
 .theme-base-0d .sidebar {
   background: linear-gradient(160deg, #0f172a 0%, #1e1b4b 100%);
 }

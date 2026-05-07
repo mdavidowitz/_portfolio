@@ -1,6 +1,7 @@
 ---
 layout: page
 title: JuBot
+order: 3
 ---
 
 JuBot is a pre-designed robotic platform built for an intro to robotics course. Throughout the course, this robot served as an experimental platform on which I wrote ROS nodes in Python, including basic image segmentation using OpenCV for line following, a simple PID controller, and a kinematic model with IMU data for odometry.

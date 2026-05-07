@@ -1,6 +1,7 @@
 ---
 layout: page
 title: //exciting// Works In Progress
+order: 5
 ---
 <br/>
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Amazon Multi-Robot System
+order: 2
 ---
 
 [![button]({{ "/images/pdf_icon.png" | relative_url }})]({{ "/images/final_report.pdf" | relative_url }}) **Final Report**

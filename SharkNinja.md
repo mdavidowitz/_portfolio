@@ -1,6 +1,7 @@
 ---
 layout: page
 title: SharkNinja
+order: 1
 ---
 
 <p align="center">

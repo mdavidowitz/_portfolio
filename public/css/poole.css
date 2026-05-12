@@ -21,7 +21,7 @@ html {
 
 body {
   color: #1e293b;
-  background-color: #f8fafc;
+  background-color: #e8eef6;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -63,7 +63,8 @@ hr {
   position: relative;
   margin: 2rem 0;
   border: 0;
-  border-top: 1px solid #e2e8f0;
+  height: 1px;
+  background: linear-gradient(to right, rgba(99,102,241,.45), transparent);
 }
 
 abbr {
@@ -117,7 +118,7 @@ blockquote p:last-child { margin-bottom: 0; }
   blockquote { padding-right: 2rem; padding-left: 1.5rem; }
 }
 
-img { display: block; max-width: 100%; margin: 0 0 1.5rem; border-radius: 8px; }
+img { display: block; max-width: 100%; margin: 0 0 1.5rem; border-radius: 8px; box-shadow: 0 2px 16px rgba(15,23,42,.12); }
 
 table {
   margin-bottom: 1rem;
@@ -155,10 +156,24 @@ tbody tr:nth-child(odd) th { background-color: #f8fafc; }
 .masthead-title a { color: #505050; }
 .masthead-title small { font-size: 75%; font-weight: 400; color: #c0c0c0; letter-spacing: 0; }
 
-.page, .post { margin-bottom: 4em; }
+.page, .post {
+  margin-bottom: 2rem;
+  background: #fff;
+  border-radius: 14px;
+  padding: 2.5rem;
+  box-shadow: 0 1px 3px rgba(15,23,42,.06), 0 8px 32px rgba(15,23,42,.09);
+}
+@media (min-width: 48em) {
+  .page, .post { padding: 3rem 3.5rem; }
+}
 
 .page-title, .post-title, .post-title a { color: #0f172a; }
 .page-title, .post-title { margin-top: 0; }
+.page-title {
+  padding-bottom: .875rem;
+  border-bottom: 2px solid #6366f1;
+  margin-bottom: 1.75rem;
+}
 
 .post-date {
   display: block;

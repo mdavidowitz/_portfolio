@@ -105,12 +105,16 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   color: #fff;
   border-left-color: #6366f1;
+  background: rgba(99,102,241,.12);
+  border-radius: 0 6px 6px 0;
   text-decoration: none;
 }
 .sidebar-nav-item.active {
   color: #fff;
   font-weight: 600;
   border-left-color: #6366f1;
+  background: rgba(99,102,241,.15);
+  border-radius: 0 6px 6px 0;
 }
 
 @media (min-width: 48em) {

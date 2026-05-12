@@ -15,9 +15,9 @@ html {
 .sidebar {
   text-align: left;
   padding: 2.5rem 2rem;
-  color: rgba(255,255,255,.65);
-  background: linear-gradient(160deg, #0f172a 0%, #1e1b4b 100%);
-  border-right: 1px solid rgba(255,255,255,.05);
+  color: #7a6e66;
+  background: linear-gradient(160deg, #f5f0e8 0%, #ede6d9 100%);
+  border-right: 1px solid #ddd5c8;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -34,16 +34,16 @@ html {
 }
 
 .sidebar a {
-  color: rgba(255,255,255,.9);
+  color: #2d2926;
   transition: color 0.15s ease;
 }
 .sidebar a:hover {
-  color: #a5b4fc;
+  color: #4f46e5;
   text-decoration: none;
 }
 
 .sidebar-about h2 {
-  color: #fff;
+  color: #1a1714;
   margin-top: 0;
   margin-bottom: 0.25rem;
   font-family: "Space Grotesk", sans-serif;
@@ -51,11 +51,11 @@ html {
   font-weight: 700;
   letter-spacing: -0.03em;
 }
-.sidebar-about h2 a { color: #fff; }
-.sidebar-about h2 a:hover { color: #a5b4fc; }
+.sidebar-about h2 a { color: #1a1714; }
+.sidebar-about h2 a:hover { color: #4f46e5; }
 
 .sidebar-about .lead {
-  color: rgba(255,255,255,.5);
+  color: #9a8e85;
   font-size: .9rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
@@ -70,21 +70,21 @@ html {
   text-transform: uppercase;
 }
 .sidebar-about h4 a {
-  color: #a5b4fc;
+  color: #4f46e5;
   padding: .35rem .7rem;
-  border: 1px solid rgba(165,180,252,.35);
+  border: 1px solid rgba(79,70,229,.3);
   border-radius: 20px;
   display: inline-block;
   transition: background 0.15s ease, color 0.15s ease;
 }
 .sidebar-about h4 a:hover {
-  background: rgba(165,180,252,.15);
-  color: #c7d2fe;
+  background: rgba(79,70,229,.07);
+  color: #4338ca;
 }
 
 .sidebar-divider {
   border: none;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid #ddd5c8;
   margin: 1.75rem 0;
 }
 
@@ -94,7 +94,7 @@ html {
   padding: .45rem 0;
   font-size: .9rem;
   font-weight: 500;
-  color: rgba(255,255,255,.6);
+  color: #8a7e77;
   border-left: 3px solid transparent;
   padding-left: .75rem;
   margin-left: -.75rem;
@@ -103,17 +103,17 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  color: #fff;
-  border-left-color: #6366f1;
-  background: rgba(99,102,241,.12);
+  color: #1a1714;
+  border-left-color: #4f46e5;
+  background: rgba(79,70,229,.07);
   border-radius: 0 6px 6px 0;
   text-decoration: none;
 }
 .sidebar-nav-item.active {
-  color: #fff;
+  color: #1a1714;
   font-weight: 600;
-  border-left-color: #6366f1;
-  background: rgba(99,102,241,.15);
+  border-left-color: #4f46e5;
+  background: rgba(79,70,229,.09);
   border-radius: 0 6px 6px 0;
 }
 
@@ -153,7 +153,7 @@ a.sidebar-nav-item:focus {
 }
 
 .theme-base-0d .sidebar {
-  background: linear-gradient(160deg, #0f172a 0%, #1e1b4b 100%);
+  background: linear-gradient(160deg, #f5f0e8 0%, #ede6d9 100%);
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {

@@ -160,11 +160,11 @@ tbody tr:nth-child(odd) th { background-color: #f8fafc; }
   margin-bottom: 2rem;
   background: #fff;
   border-radius: 14px;
-  padding: 2.5rem;
+  padding: 2rem;
   box-shadow: 0 1px 3px rgba(15,23,42,.06), 0 8px 32px rgba(15,23,42,.09);
 }
 @media (min-width: 48em) {
-  .page, .post { padding: 3rem 3.5rem; }
+  .page, .post { padding: 2.5rem; }
 }
 
 .page-title, .post-title, .post-title a { color: #0f172a; }

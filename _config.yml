@@ -16,5 +16,9 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
+exclude:
+  - CLAUDE.md
+  - apply_style.sh
+
 # Custom vars
 version:          3.0.0

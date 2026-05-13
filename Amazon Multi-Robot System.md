@@ -14,13 +14,14 @@ In a team of four, we developed a multi-robot system (MRS) capable of transporti
 
 ![bot]({{ "/images/bot.png" | relative_url }})
 
-<iframe width="350" height="315"
-src="https://www.youtube.com/embed/cNsrh9rWQQU">
-</iframe>
-
-<iframe width="350" height="315" align="right"
-src="https://www.youtube.com/embed/XdaDKQsmUIY">
-</iframe>
+<div class="video-row">
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/cNsrh9rWQQU" allowfullscreen></iframe>
+  </div>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/XdaDKQsmUIY" allowfullscreen></iframe>
+  </div>
+</div>
 
 
 Much of current warehouse automation focuses on structured, repeatable tasks, often partitioned from human workers; the motivation for this project was to design a scalable, human-collaborative solution for an unstructured warehouse process.  After independent research into Amazon’s warehouse workflow, we decided to target transportation of bulky items that are handled in their ‘non-sortable’ fulfillment centers. We wrote a technical proposal, presented it to Amazon Robotics, and received funding to build out prototypes for our senior design project at Boston University.  

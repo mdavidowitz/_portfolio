@@ -10,10 +10,11 @@ JuBot is a pre-designed robotic platform built for an intro to robotics course. 
   <img  src="{{ "/images/jubot_side2.jpg" | relative_url }}">
 </p>
 
-<iframe width="350" height="315"
-src="https://youtube.com/embed/pt6XSqtSpy4">
-</iframe>
-
-<iframe width="350" height="315" align="right"
-src="https://youtube.com/embed/JZp9qSePe1M">
-</iframe>
+<div class="video-row">
+  <div class="video-container">
+    <iframe src="https://youtube.com/embed/pt6XSqtSpy4" allowfullscreen></iframe>
+  </div>
+  <div class="video-container">
+    <iframe src="https://youtube.com/embed/JZp9qSePe1M" allowfullscreen></iframe>
+  </div>
+</div>

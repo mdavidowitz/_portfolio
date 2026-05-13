@@ -152,6 +152,28 @@ a.sidebar-nav-item:focus {
   .layout-reverse .content { margin-left: 4rem; margin-right: 24rem; }
 }
 
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.video-container {
+  flex: 1 1 280px;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .theme-base-0d .sidebar {
   background: linear-gradient(160deg, #f5f0e8 0%, #ede6d9 100%);
 }
